@@ -1,0 +1,545 @@
+
+
+.woolayout-elements-list .woolayout-drag-items, .woolayout-default-woo-elements .woolayout-elements {
+	border: 1px solid #ddd;
+	background: #00749a;
+	color: #FFF;
+	cursor: move;
+	display: inline-block !important;
+	padding: 10px;
+	text-align: center;
+	width: 200px;
+	margin: 10px 4px;
+}
+
+.woolayout-elements-list .woolayout-drag-items:hover, .woolayout-default-woo-elements .woolayout-elements:hover {
+	background: #464342;
+	color: #FFF;
+}
+.woolayout-elements-list-wrap {
+	margin-bottom: 20px;
+}
+
+.woolayout-shop-loop-wrap {
+	border: 1px solid #ddd;
+	padding: 5px 20px 20px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.woolayout-sections {
+	border: 1px solid #ddd;
+	padding: 50px 20px 20px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.woolayout-rows {
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  min-height: 50px;
+  padding: 50px 20px 20px;
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+  display: table;
+}
+.woolayout-columns {
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  min-height: 50px;
+  padding: 50px 20px 20px;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  box-shadow: 0px 0px 1px 1px #333;
+width: 100%;
+margin-bottom: 20px;
+background: #464342;
+opacity: 1 !important;
+
+   -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+
+
+
+.woolayout-column-settings-wrap {
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  width: 90%;
+  z-index: 1;
+}
+
+
+.woolayout-elements {
+	border: 1px solid #ddd;
+	padding: 50px 20px 20px;
+	margin: 10px auto;
+	position: relative;
+	width: 100%;
+	box-sizing: border-box;
+	color: #333;
+background: #eee;
+}
+
+
+
+.woolayout-template-button {
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin: 10px auto;
+	position: relative;
+	width: auto;
+	box-sizing: border-box;
+	color: #333;
+	background: #eee;
+	cursor: pointer;
+	background: #00749a;
+	color: #FFF;
+	padding: 10px 20px;
+}
+
+
+
+.woolayout-elements-list-wrap .woolayout-dialog, .woolayout-elements-list-wrap .woolayout-helper {
+    display: none;
+}
+
+.woolayout-helper {
+	background: #00749a none repeat scroll 0 0;
+	box-sizing: border-box;
+	height: 30px;
+	left: 0;
+	position: absolute;
+	text-align: right;
+	top: 0;
+	width: 100%;
+	color: #FFF;
+}
+
+.woolayout-increase-width, .woolayout-decrease-width {
+	float: left;
+}
+
+.woolayout-helper > div {
+	border-right: 1px solid #02506a;
+	padding: 5px;
+}
+
+.woolayout-helper > div:last-child {
+	border-right:  1px solid #00749a;
+}
+.woolayout-helper > div:hover {
+	background: #02506a;
+}
+
+.woolayout-handle, .woolayout-edit, .woolayout-delete {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1;
+  vertical-align: top;
+      cursor: pointer;
+}
+
+.woolayout-content-wrap .woolayout-drop-highlight {
+    background: #FFF;
+border: dashed 1px #00749a;
+height: 100px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100% !important;
+   max-width:300px;
+}
+.ui-draggable-dragging {
+ width: 100% !important;
+ max-width:300px;
+}
+
+.woolayout-elements-list-wrap .woolayout-drop-highlight {
+width: auto;
+}
+
+
+
+.woolayout-elements-list .woolayout-drag-items .woolayout-handle {
+    display: none;
+}
+.woolayout-button-wrap {
+	text-align: right;
+	margin: 20px auto;
+}
+.woolayout-reset-form, .woolayout-button-wrap .button {
+	display: inline-block !important;
+	vertical-align: top;
+	float: none;
+	margin: 0 10px;
+}
+
+
+.woolayout-button-wrap p.submit {
+	margin: 0;
+	padding: 0;
+}
+
+p.submit {
+	text-align: left;
+	margin: 0;
+	padding-top: 10px;
+}
+
+
+/***
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable {
+    width: 100% !important;
+    left: 0 !important;
+    top: 0 !important;
+    position: fixed !important;
+    z-index: 9;
+    height: 100% !important;
+}
+button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close {
+     width: 100% !important;
+    left: 0 !important;
+    top: 0 !important;
+    position: fixed !important;
+    z-index: 99;
+    height: 100% !important;
+	background:#000;
+	opacity:0.5;
+}
+
+div.popup-settings {
+    width: 100% !important;
+    height: 500px !important;
+    max-width: 960px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 80px;
+    background: #FFF;
+    z-index: 99999;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+fieldset {
+      border: 0;
+      margin-left: 300px;
+    }
+    label {
+      display: block;
+      margin: 20px 0 0 0;
+    }
+    select {
+      width: 200px;
+    }
+	
+	.ui-selectmenu-button {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+***/
+
+.woolayout-column-content-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 100px;
+    position: relative;
+}
+
+.woolayout-column-content-removed {
+    display: none;
+}
+
+
+
+
+.woolayout-settings-wrap .ui-dialog {
+    width: 100% !important;
+    left: 0 !important;
+    z-index: 99;
+    top: 30px !important;
+    position: fixed !important;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-left: 180px;
+    height: 100% !important;
+}
+
+
+.woolayout-settings-wrap .ui-dialog::before {
+    background-color: #000;
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.woolayout-dialog  .woolayout-dialog {
+	background: #eee;
+	padding: 20px;
+	box-sizing: border-box;
+	height: 500px !important;
+	overflow-y: scroll;
+}
+
+.ui-dialog-buttonpane {
+	background: #eee;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-top: 1px solid #ddd;
+	text-align: right;
+	position: relative;
+	z-index: 999;
+}
+.woolayout-dialog .ui-dialog-titlebar-close {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #000;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.woolayout-dialog .woolayout-dialog {
+	background: #eee;
+	padding: 20px;
+	box-sizing: border-box;
+	height: 500px !important;
+	overflow-y: scroll;
+	z-index: 99999;
+	position: relative;
+}
+
+.ui-dialog-buttonpane .ui-button {
+	background: #0085ba;
+	border-color: #0073aa #006799 #006799;
+	-webkit-box-shadow: 0 1px 0 #006799;
+	box-shadow: 0 1px 0 #006799;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799;
+	border: none;
+	padding: 5px 20px;
+	text-transform: uppercase;
+}
+
+.woolayout-settings-wrap .ui-dialog-titlebar {
+  background: #464342  none repeat scroll 0 0;
+  box-sizing: border-box;
+  color: #eee;
+  padding: 10px 20px;
+}
+
+.woolayout-dialog .ui-dialog-title {
+  font-size: 18px;
+}
+
+.woolayout-dialog  .ui-dialog-titlebar-close {
+  float: right;
+}
+
+
+
+
+.sample-resizable {
+    border: 1px solid #000;
+    height: auto;
+    width:100%
+}
+.sample-resizable-item {
+    border: 1px solid #000;
+	width:50%;
+}
+
+
+.woolayout-settings-wrap .ui-resizable {
+    position: relative;
+}
+.woolayout-settings-wrap .ui-resizable-e {
+    cursor: e-resize;
+    width: 7px;
+    right: -5px;
+    top: 0;
+    height: 100%;
+}
+.woolayout-settings-wrap .ui-resizable-handle {
+  background: #ddd none repeat scroll 0 0;
+  display: block;
+  font-size: 0.1px;
+  position: absolute;
+}
+
+.woolayout-rows > span, .woolayout-columns > span, .woolayout-sections > span {
+  display: none;
+}
+.woolayout-content-container {
+  background: #f5f5f5 none repeat scroll 0 0;
+}
+
+.woolayout-tabs ul {
+    margin: 0;
+}
+
+.woolayout-tabs ul li {
+	 background: #00749a none repeat scroll 0 0;
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 10px;
+	margin: 0px 5px 6px 0px;
+	color: #FFF;
+}
+
+.woolayout-tabs ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+
+.woolayout-tabs ul li.ui-tabs-active.ui-state-active {
+	background: transparent;
+	
+	border-bottom: 1px solid #eee;
+}
+.woolayout-tabs ul li.ui-tabs-active.ui-state-active a {
+color: #333;
+}
+.woolayout-tab-content {
+  border: 1px solid #ddd;
+  margin-top: -7px;
+  padding: 10px;
+}
+
+
+.woolayout-filed-wrap {
+  margin: 10px auto;
+}
+.woolayout-dialog label {
+	display: inline-block;
+	width: 15%;
+	vertical-align: top;
+}
+
+
+
+
+.sale-style-4-wrap {
+  background: #ff7800 none repeat scroll 0 0;
+  font-size: 20px;
+  width: 100%;
+}
+
+
+.woolayout-checkbox-wrap {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.woolayout-dialog .woolayout-checkbox-wrap label {
+  display: block;
+  width: auto;
+}
+
+.woolayout-dialog .woolayout-checkbox-wrap label img {
+  border: 1px solid #ddd;
+}
+
+
+.woolayout-dialog .woolayout-filed-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 81%;
+}
+
+.woolayout-content-wrap .woolayout-dialog {
+display:none;
+}
+
+.woolayout-element-name {
+	display: inline;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: normal;
+}
+
+.woolayout-tabs .ui-widget-content {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+
+
+.woolayout-tabs ul {
+  margin: 0 0 -7px;
+}
+
+
+
+
+
+.w25 {
+    width: 25%;
+}
+.w33 {
+    width: 33.3333333332%;
+}
+.w50 {
+    width: 50%;
+}
+.w66 {
+    width: 66.6666666665%;
+}
+.w75 {
+    width: 75%;
+}
+.w100 {
+    width: 100%;
+}
+
+
+
+
+.woolayout-submit #submit.button-primary {
+	visibility: hidden;
+}
+
+.woolayout-template-button:hover {
+	background: #333;
+}
+
+/********** test ******************/
+
+
+  #gallery { float: left; width: 65%; min-height: 12em; }
+  .gallery.custom-state-active { background: #eee; }
+  .gallery li { float: left; width: 96px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+  .gallery li h5 { margin: 0 0 0.4em; cursor: move; }
+  .gallery li a { float: right; }
+  .gallery li a.ui-icon-zoomin { float: left; }
+  .gallery li img { width: 100%; cursor: move; }
+ 
+  #trash { float: right; width: 32%; min-height: 18em; padding: 1%; }
+  #trash h4 { line-height: 16px; margin: 0 0 0.4em; }
+  #trash h4 .ui-icon { float: left; }
+  #trash .gallery h5 { display: none; }
+
+
